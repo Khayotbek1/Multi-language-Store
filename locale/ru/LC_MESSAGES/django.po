@@ -34,48 +34,48 @@ msgstr "Русский"
 
 #: .\core\settings.py:121 .\core\settings.py:122 .\core\settings.py:123
 msgid "Store"
-msgstr ""
+msgstr "Магазин"
 
 #: .\core\settings.py:124
 msgid "Welcome"
-msgstr ""
+msgstr "Добро пожаловать"
 
 #: .\main\models.py:6 .\main\models.py:17
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: .\main\models.py:9
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 #: .\main\models.py:10
 msgid "Categories"
-msgstr ""
+msgstr "Категории"
 
 #: .\main\models.py:18
 msgid "Brand"
-msgstr ""
+msgstr "Бренд"
 
 #: .\main\models.py:19
 msgid "Price"
-msgstr ""
+msgstr "Цена"
 
 #: .\main\models.py:20
 msgid "Stock"
-msgstr ""
+msgstr "Количество"
 
 #: .\main\models.py:21
 msgid "Unit"
-msgstr ""
+msgstr "Единица"
 
 #: .\main\models.py:22
 msgid "Created_at"
-msgstr ""
+msgstr "Создано в"
 
 #: .\main\models.py:25
 msgid "Product"
-msgstr ""
+msgstr "Продукт"
 
 #: .\main\models.py:26
 msgid "Products"
-msgstr ""
+msgstr "Продукты"
