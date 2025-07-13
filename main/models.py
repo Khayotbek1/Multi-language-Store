@@ -15,6 +15,7 @@ class Category(models.Model):
 class Product(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE, verbose_name=_('Category'))
     name = models.CharField(_('Name'), max_length=255)
+    details = models.TextField(_('Details'), null=True, blank=True)
     brand = models.CharField(_('Brand'), max_length=255, null=True, blank=True)
     price = models.FloatField(_('Price'), null=True, blank=True)
     stock = models.FloatField(_('Stock'), null=True, blank=True)

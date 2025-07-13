@@ -92,6 +92,7 @@ AUTH_PASSWORD_VALIDATORS = [
 from django.utils.translation import gettext_lazy as _
 
 LANGUAGE_CODE = 'en-us'
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
 
 TIME_ZONE = 'Asia/Tashkent'
 
@@ -104,6 +105,7 @@ LANGUAGES = [
     ('uz', _('Uzbek')),
     ('ru', _('Russian')),
 ]
+
 
 LOCALE_PATHS = (
     BASE_DIR / 'locale',
@@ -124,4 +126,88 @@ JAZZMIN_SETTINGS = {
     'site_brand': _('Store'),
     'welcome': _('Welcome'),
     "language_chooser": True,
+"show_sidebar": True,
+    "navigation_expanded": True,
+    "hide_apps": [],
+    "hide_models": [],
+    "order_with_respect_to": ["auth", "your_app"],
+
+    "icons": {
+        "auth": "fas fa-users-cog",
+        "auth.user": "fas fa-user",
+        "auth.Group": "fas fa-users",
+        "your_app.Product": "fas fa-box-open",
+    },
+
+    "default_icon_parents": "fas fa-chevron-circle-right",
+    "default_icon_children": "fas fa-circle",
+
+    "topmenu_links": [
+        {"name": "Bosh sahifa",  "url": "admin:index", "permissions": ["auth.view_user"]},
+        {"model": "auth.User"},
+        {"app": "your_app"},
+    ],
+
+    "usermenu_links": [
+        {"name": "Google", "url": "https://google.com", "new_window": True},
+    ],
+
+    "show_ui_builder": True,
+    "changeform_format": "collapsible",
+    "related_modal_active": True,
+
 }
+
+JAZZMIN_UI_TWEAKS = {
+
+    "theme": "minty",
+    "dark_mode_theme": "light",  #
+
+
+    "body_small_text": False,
+    "body_bg": None,
+    "brand_colour": "navbar-danger",
+    "accent": "accent-info",
+
+
+    "sidebar": "sidebar-light-danger",
+    "sidebar_icon": "fas fa-users",
+    "sidebar_nav_small_text": False,
+    "sidebar_disable_expand": False,
+    "sidebar_nav_child_indent": True,
+    "sidebar_nav_compact_style": True,
+    "sidebar_nav_legacy_style": False,
+    "sidebar_nav_flat_style": True,
+    "sidebar_fixed": True,
+
+
+    "navbar": "navbar-dark navbar-dark",
+    "navbar_fixed": True,
+    "navbar_small_text": False,
+
+
+    "footer_fixed": False,
+    "footer_small_text": True,
+
+
+    "button_classes": {
+        "primary": "btn btn-primary",
+        "secondary": "btn btn-secondary",
+        "success": "btn btn-success",
+        "info": "btn btn-info",
+        "warning": "btn btn-warning",
+        "danger": "btn btn-danger",
+    },
+
+
+    "form_classes": {
+        "default": "form-control",
+        "checkbox": "form-check-input",
+        "radio": "form-check-input",
+        "select": "form-select",
+    },
+    "actions_sticky_top": True,
+    "text_muted": False,
+    "small_text": False,
+}
+

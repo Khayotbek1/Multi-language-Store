@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 08:09+0500\n"
+"POT-Creation-Date: 2025-07-13 23:05+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,23 +20,23 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\core\settings.py:102
+#: .\core\settings.py:104
 msgid "English"
 msgstr "Английский"
 
-#: .\core\settings.py:103
+#: .\core\settings.py:105
 msgid "Uzbek"
 msgstr "Узбекский"
 
-#: .\core\settings.py:104
+#: .\core\settings.py:106
 msgid "Russian"
 msgstr "Русский"
 
-#: .\core\settings.py:121 .\core\settings.py:122 .\core\settings.py:123
+#: .\core\settings.py:124 .\core\settings.py:125 .\core\settings.py:126
 msgid "Store"
 msgstr "Магазин"
 
-#: .\core\settings.py:124
+#: .\core\settings.py:127
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
@@ -44,7 +44,7 @@ msgstr "Добро пожаловать"
 msgid "Name"
 msgstr "Имя"
 
-#: .\main\models.py:9
+#: .\main\models.py:9 .\main\models.py:16
 msgid "Category"
 msgstr "Категория"
 
@@ -53,29 +53,33 @@ msgid "Categories"
 msgstr "Категории"
 
 #: .\main\models.py:18
+msgid "Details"
+msgstr "Подробности"
+
+#: .\main\models.py:19
 msgid "Brand"
 msgstr "Бренд"
 
-#: .\main\models.py:19
+#: .\main\models.py:20
 msgid "Price"
 msgstr "Цена"
 
-#: .\main\models.py:20
+#: .\main\models.py:21
 msgid "Stock"
 msgstr "Количество"
 
-#: .\main\models.py:21
+#: .\main\models.py:22
 msgid "Unit"
 msgstr "Единица"
 
-#: .\main\models.py:22
+#: .\main\models.py:23
 msgid "Created_at"
 msgstr "Создано в"
 
-#: .\main\models.py:25
+#: .\main\models.py:26
 msgid "Product"
 msgstr "Продукт"
 
-#: .\main\models.py:26
+#: .\main\models.py:27
 msgid "Products"
 msgstr "Продукты"
