@@ -5,6 +5,7 @@ from .models import *
 
 class CategoryAdmin(TranslationAdmin):
     list_display = ('name',)
+    list_filter = ('name',)
 
     class Media:
         js = (

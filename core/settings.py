@@ -25,7 +25,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main',
+    #apps
+    'main.apps.MainConfig',
+    #packeges
     'rest_framework',
 ]
 
@@ -161,7 +163,7 @@ JAZZMIN_SETTINGS = {
 JAZZMIN_UI_TWEAKS = {
 
     "theme": "minty",
-    "dark_mode_theme": "light",  #
+    "dark_mode_theme": "light",
 
 
     "body_small_text": False,
